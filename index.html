@@ -102,10 +102,11 @@
         <h1 class="hPrimary center blue underline">Contact Me</h1>
         <div class="form">
         <div class="contactForm">
-          <form>
-            <input type="text" name="" id="" placeholder="Full Name ">
-            <input type="email" name="" id="" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <form id="contactFormDBS">
+            <div class="alert">Your message Sent</div>
+            <input type="text" name="" id="fullname" placeholder="Full Name ">
+            <input type="email" name="" id="email" placeholder="Email">
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
             <input type="submit" name="" id="" class="btn">
           </form>
         </div>
@@ -113,5 +114,7 @@
       </div>
 
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="assets/js/mail.js"></script>
   </body>
 </html>
