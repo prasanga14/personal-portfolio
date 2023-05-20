@@ -1,0 +1,73 @@
+@media (max-width: 800px) {
+  .devPic {
+    display: none;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .header nav ul li {
+    padding: 0 12px;
+  }
+
+  .header nav ul li a {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .aboutText {
+    margin-top: 10px;
+  }
+
+  .hSecondary {
+    font-size: 12px;
+  }
+
+  .aboutContent {
+    font-size: 15px;
+  }
+  .projectsContainer ol {
+    font-size: 15px;
+  }
+  .contactContainer {
+    margin-top: 600px;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+  .contactForm input {
+    font-size: 10px;
+    width: 80%;
+    padding: 12px 12px;
+    margin: 12px 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .contactForm textarea {
+    font-size: 10px;
+    width: 80%;
+    padding: 12px 12px;
+    margin: 12px 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  input[type='submit'] {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+  }
+}
+
+@media (max-width: 280px) {
+  .projectsContainer img {
+    display: none;
+  }
+
+  .header nav ul li {
+    padding: 0 8px;
+  }
+  .header nav ul li a {
+    font-size: 10px;
+    padding: 0;
+  }
+}

@@ -3,6 +3,7 @@
 .aboutContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .aboutText {
@@ -28,4 +29,8 @@
 
 .hSecondary {
   font-family: 'Poppins', sans-serif;
+}
+
+.headingAbout {
+  margin-top: 40px;
 }
