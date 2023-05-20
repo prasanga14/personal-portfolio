@@ -5,7 +5,6 @@
 .projects {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .projectName {
@@ -28,4 +27,8 @@
 
 .projectName a {
   text-decoration: none;
+}
+
+.M-top {
+  margin-top: 50px;
 }

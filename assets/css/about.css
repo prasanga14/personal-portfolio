@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@500&family=Roboto&family=Rubik&display=swap');
 
 .aboutContainer {
-  height: 100vh;
   display: flex;
   justify-content: center;
 }
