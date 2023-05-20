@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@500&family=Roboto&family=Rubik&display=swap');
+
+.aboutContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutText {
+  font-family: 'Rubik', sans-serif;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.aboutImage {
+  width: 50%;
+  margin: auto;
+}
+
+.aboutImage img {
+  width: 40%;
+  margin-left: 200px;
+}
+
+.align {
+  margin-left: 560px;
+}
+
+.hSecondary {
+  font-family: 'Poppins', sans-serif;
+}

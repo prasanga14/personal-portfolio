@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@500&family=Roboto&family=Rubik&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+}
+.header nav ul li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: red;
+  float: left;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.header nav ul li::after {
+  background-color: #3068ff;
+  content: '';
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+.header nav ul li:hover::after {
+  width: 100%;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #0d1730;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-left: 50px;
+}
+
+.homeContainer {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+}
+
+.devPic {
+  height: 60vh;
+  width: 40vw;
+}
+.devPic img {
+  height: 60vh;
+}
+
+.devInfo {
+  flex-direction: column;
+  height: 60vh;
+  width: 40vw;
+  margin: 0 100px;
+  margin-top: 300px;
+}
+
+.hPrimary {
+  color: #0d1730;
+  font-size: 38px;
+  font-family: 'Poppins', sans-serif;
+  padding: 2px 0;
+}
+
+.cvButton {
+  margin-top: 12px;
+}
+
+/* UTILITY CLASSES */
+
+.blue {
+  color: #3e6ff4;
+}
+.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #3e6ff4;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin: 10px 0 0 5px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #3e6ff4;
+}
+
+.btnSmall {
+  background-color: #3e6ff4;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin: 10px 0 0 5px;
+}
+.btnSmall:hover {
+  background-color: #fff;
+  color: #3e6ff4;
+}
+
+.big {
+  width: 50px;
+}
+
+.icons {
+  margin-top: 90px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+.icons:hover {
+  color: #3068ff;
+}
+
+.M-left {
+  margin-left: 50px;
+}
