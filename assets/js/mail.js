@@ -26,6 +26,14 @@ function submitForm(e) {
   var message = getElementVal('message');
   console.log(fullname, email, message);
 
+  if (!fullname || !email || !message)
+    return (
+      (document.querySelector('.errorAlert').style.display = 'block') &&
+      setTimeout(() => {
+        document.querySelector('.errorAlert').style.display = 'none';
+      }, 2000)
+    );
+
   saveMessages(fullname, email, message);
 
   // enable alert

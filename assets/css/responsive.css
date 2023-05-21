@@ -71,3 +71,20 @@
     padding: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .projectsContainer img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactContainer {
+    margin-top: 250px;
+  }
+}
+@media (max-width: 290px) {
+  .contactContainer {
+    margin-top: 500px;
+  }
+}
