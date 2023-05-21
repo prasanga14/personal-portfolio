@@ -26,6 +26,8 @@ function submitForm(e) {
   var message = getElementVal('message');
   console.log(fullname, email, message);
 
+  // Form validation
+
   if (!fullname || !email || !message)
     return (
       (document.querySelector('.errorAlert').style.display = 'block') &&
