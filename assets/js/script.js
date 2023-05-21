@@ -8,7 +8,7 @@ const forkifyBtn = document.querySelector('.forkifyBtn');
 // to download CV
 cvBTN.addEventListener('click', function (e) {
   e.preventDefault();
-  open('cv.pdf');
+  open('cv.txt');
 });
 
 // To open github page
