@@ -4,6 +4,7 @@ const linkedinIcon = document.querySelector('.linkedinIcon');
 const foodBtn = document.querySelector('.foodBtn');
 const guessTheNumberBtn = document.querySelector('.guessTheNumberBtn');
 const renderCountryBtn = document.querySelector('.renderCountryBtn');
+const myNotesBtn = document.querySelector('.myNotesBtn');
 
 // To open github page
 githubIcon.addEventListener('click', function (e) {
@@ -32,4 +33,9 @@ guessTheNumberBtn.addEventListener('click', function (e) {
 renderCountryBtn.addEventListener('click', function (e) {
   e.preventDefault();
   open('https://github.com/prasanga14/render-country');
+});
+
+myNotesBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  open('https://github.com/prasanga14/fullStackNotesApp/');
 });
