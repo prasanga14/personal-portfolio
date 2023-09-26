@@ -3,13 +3,7 @@ const githubIcon = document.querySelector('.githubIcon');
 const linkedinIcon = document.querySelector('.linkedinIcon');
 const foodBtn = document.querySelector('.foodBtn');
 const guessTheNumberBtn = document.querySelector('.guessTheNumberBtn');
-const forkifyBtn = document.querySelector('.forkifyBtn');
-
-// to download CV
-cvBTN.addEventListener('click', function (e) {
-  e.preventDefault();
-  open('cv.txt');
-});
+const renderCountryBtn = document.querySelector('.renderCountryBtn');
 
 // To open github page
 githubIcon.addEventListener('click', function (e) {
@@ -35,7 +29,7 @@ guessTheNumberBtn.addEventListener('click', function (e) {
   open('https://guessthenumber-pg.netlify.app/');
 });
 
-forkifyBtn.addEventListener('click', function (e) {
+renderCountryBtn.addEventListener('click', function (e) {
   e.preventDefault();
-  open('https://forkify-prasanga.netlify.app/');
+  open('https://github.com/prasanga14/render-country');
 });
